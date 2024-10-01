@@ -39,13 +39,13 @@ ___
 ___   
 # Imagenes 📸  
 
-![Texto alternativo](ruta/a/la/imagen.jpg)
+![Imagen inicio](inicio_image.png)
 
-![Texto alternativo](ruta/a/la/imagen.jpg)
+![Imagen Vista Inicio](image_1.png)
 
-![Texto alternativo](ruta/a/la/imagen.jpg)
+![Imagen Vista Lista Peliculas](image_2.png)
 
-![Texto alternativo](ruta/a/la/imagen.jpg)
+![Imagen Vista Modificar](image_3.png)
 ___   
 
 # Colaboraciones 🎯
