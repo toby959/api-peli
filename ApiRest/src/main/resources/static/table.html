@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of Films</title>
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="assets/claqueta.png" type="image/png">
+  </head>
+<body>
+    
+ 
+    <table id="table">
+        <thead>
+          <tr>
+            <th colspan="6">Movies</th>
+          </tr>
+          <tr>
+            <th>#</th>
+            <th>Títle</th>
+            <th>Director</th>
+            <th>Genre</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+
+
+      <div id="form">
+        <h1 class="title">Movie Modification</h1>
+      <div class="formbold-main-wrapper">
+          <div class="formbold-form-wrapper">
+            <form >
+                <div class="formbold-input-flex">
+                  <div>
+                    <label for="title" class="formbold-form-label"> Títle </label>
+                      <input
+                      type="text"
+                      name="title"
+                      id="title"
+                      placeholder="choose an option"
+                      class="formbold-form-input"
+                      />
+                     
+                  </div>
+                  <div>
+                    <label for="director" class="formbold-form-label"> Director </label>
+                      <input
+                      type="text"
+                      name="director"
+                      id="director"
+                      placeholder="choose an option"
+                      class="formbold-form-input"
+                      />
+                    
+                  </div>
+                </div>
+        
+                <div class="formbold-input-flex">
+                  <div>
+                    <label for="genre" class="formbold-form-label"> Genre </label>
+                      <input
+                      type="text"
+                      name="genre"
+                      id="genre"
+                      placeholder="choose an option"
+                      class="formbold-form-input"
+                      />
+                
+                  </div>
+                </div>
+        
+                <button class="formbold-btn"  id="btnModify">
+                  Modify
+                </button>
+            </form>
+          </div>
+        </div>
+        </div>
+
+<script src="table.js"></script>  
+</body>
+</html>

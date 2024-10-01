@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Api Movies</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/claqueta.png" type="image/png">
+</head>
+
+<body>
+  <h1>Film Registration</h1>
+  <div class="formbold-main-wrapper">
+
+    <div class="formbold-form-wrapper">
+
+      <form action="http://localhost:8000/api/v1/peliculas" method="POST">
+
+        <div class="formbold-form-step-1 active">
+          <div class="formbold-input-flex">
+            <div>
+              <label for="title" class="formbold-form-label"> Title </label>
+              <input type="text" name="title" id="title" placeholder="choose an option" class="formbold-form-input" />
+            </div>
+            <div>
+              <label for="director" class="formbold-form-label"> Director </label>
+              <input type="text" name="director" id="director" placeholder="choose an option"
+                class="formbold-form-input" />
+            </div>
+          </div>
+
+
+          <div>
+            <label for="genre" class="formbold-form-label"> Genre </label>
+            <input type="text" name="genre" id="genre" placeholder="choose an option" class="formbold-form-input" />
+          </div>
+        </div>
+
+
+
+        <button id="btnRegister" class="formbold-btn">
+          Register
+
+        </button>
+
+      </form>
+    </div>
+  </div>
+  <script src="form.js"></script>
+
+</body>
+
+</html>
