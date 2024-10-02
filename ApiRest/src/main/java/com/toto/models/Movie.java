@@ -6,18 +6,19 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+
+
 @Entity
 public class Movie {
-      @Id
-      @GeneratedValue(strategy = GenerationType.IDENTITY)
-      private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-      private String title;
-      private String director;
-      private  String genre;
+    private String title;
+    private String director;
+    private String genre;
 
     public Movie() {
-        super();
     }
 
     public Movie(String title, String director, String genre) {
@@ -58,4 +59,6 @@ public class Movie {
     public void setGenre(String genre) {
         this.genre = genre;
     }
+
 }
+

@@ -1,0 +1,34 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "director": "Francis Ford Coppola",
+      "genre": "Drama",
+      "title": "El padrino"
+    },
+    {
+      "id": 2,
+      "director": "Quentin Tarantino",
+      "genre": "Thriller",
+      "title": "Reservoir Dogs"
+    },
+    {
+      "id": 3,
+      "director": "Christopher Nolan",
+      "genre": "Ciencia Ficción",
+      "title": "Inception"
+    },
+    {
+      "id": 4,
+      "director": "Steven Spielberg",
+      "genre": "Aventura",
+      "title": "Jurassic Park"
+    },
+    {
+      "id": 5,
+      "director": "Martin Scorsese",
+      "genre": "Crimen",
+      "title": "Goodfellas"
+    }
+  ]
+}
